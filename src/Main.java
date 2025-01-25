@@ -167,7 +167,7 @@ public class Main {
         String[] f_names = {"adele.jpg", "aubreyplaza.jpg", "edsheeran.jpg", "edwardelric.jpg", "einstein.jpg", "fred.jpg", "freddyfazbear.jpg", "gracehopper.jpg", "madeline.jpg", "oprah.jpg", "scottwozniak.jpg", "thebride.jpg", "tomholland.jpg", "urkel.jpg", "velma.jpg", "princessleia.jpg"};
         ToggleCoverImage[] temp = new ToggleCoverImage[16];
         for (int i = 0; i < 16; i++) {
-            BufferedImage image = ImageIO.read(new File("../../assets/" + f_names[i]));
+            BufferedImage image = ImageIO.read(new File("../assets/" + f_names[i]));
             int y = 3;
             if (i<4){
                 y=0;
